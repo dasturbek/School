@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>User_UI</class>
+ <widget class="QDialog" name="User_UI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1166</width>
+    <height>745</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Matab.uz</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="img.qrc">
+    <normaloff>:/new/prefix1/Img/icons8-school.png</normaloff>:/new/prefix1/Img/icons8-school.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#User_UI{
+	background-color:#18ffcb; 
+}</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QSplitter" name="splitter">
+     <property name="styleSheet">
+      <string notr="true">#splitter{
+border-radius:10px ;
+background-color: rgba(0,0,0,0);
+}</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>320</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>330</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#widget{
+border-radius:10px ;
+background-color: rgba(0,0,0,0.2);
+}</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_2">
+         <property name="maximumSize">
+          <size>
+           <width>350</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QLabel {
+	font: 50 28pt &quot;Jokerman&quot;;
+	color:#ff1a1a;
+}
+
+
+    
+ </string>
+         </property>
+         <property name="text">
+          <string>School</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QLabel" name="label_4">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 18pt &quot;MV Boli&quot;;</string>
+         </property>
+         <property name="text">
+          <string>Home</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="0" colspan="2">
+        <widget class="QPushButton" name="fikr_va_mulohazalar">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton {
+  border-radius: 4px;
+  background-color: #ff1a1a;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  margin: 5px;
+}
+.QPushButton:hover{
+  border-radius: 5px;
+  background-color: #e6005c;
+  margin: 3px;
+  color:#FFF;
+}</string>
+         </property>
+         <property name="text">
+          <string>Fikr va mulohazalar</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="img.qrc">:/new/prefix1/Img/icons8-school.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0" colspan="2">
+        <widget class="QLabel" name="label_3">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>    -----------------------------------------------------</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0" colspan="2">
+        <widget class="QPushButton" name="dars_jadvali">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton {
+  border-radius: 4px;
+  background-color: #ff1a1a;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  margin: 5px;
+}
+.QPushButton:hover{
+  border-radius: 5px;
+  background-color: #e6005c;
+  margin: 3px;
+  color:#FFF;
+}</string>
+         </property>
+         <property name="text">
+          <string>Dars jadvali</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="2">
+        <widget class="QPushButton" name="malumot_oquv">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton {
+  border-radius: 4px;
+  background-color: #ff1a1a;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  margin: 5px;
+}
+.QPushButton:hover{
+  border-radius: 5px;
+  background-color: #e6005c;
+  margin: 3px;
+  color:#FFF;
+}</string>
+         </property>
+         <property name="text">
+          <string>O'quvchilarning malumotlari</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0" colspan="2">
+        <widget class="QPushButton" name="baholar">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton {
+  border-radius: 4px;
+  background-color: #ff1a1a;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  margin: 5px;
+}
+.QPushButton:hover{
+  border-radius: 5px;
+  background-color: #e6005c;
+  margin: 3px;
+  color:#FFF;
+}</string>
+         </property>
+         <property name="text">
+          <string>Baholar va reyting</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QPushButton" name="home">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton {
+  border-radius: 4px;
+  background-color: #ff1a1a;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  margin: 5px;
+}
+.QPushButton:hover{
+  border-radius: 5px;
+  background-color: #e6005c;
+  margin: 3px;
+  color:#FFF;
+}</string>
+         </property>
+         <property name="text">
+          <string>Home</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="0" colspan="2">
+        <widget class="QPushButton" name="royiqnoma">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton {
+  border-radius: 4px;
+  background-color: #ff1a1a;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  margin: 5px;
+}
+.QPushButton:hover{
+  border-radius: 5px;
+  background-color: #e6005c;
+  margin: 3px;
+  color:#FFF;
+}</string>
+         </property>
+         <property name="text">
+          <string>Foydalanish ro'yiqnomasi</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="0" colspan="2">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>Aloqa</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QToolButton" name="Google">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"> .QToolButton {
+  border-radius:5px;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="img.qrc">
+              <normaloff>:/new/prefix1/Img/ig.png</normaloff>:/new/prefix1/Img/ig.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>50</width>
+              <height>50</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="telegramm">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"> .QToolButton {
+  border-radius:5px;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="img.qrc">
+              <normaloff>:/new/prefix1/Img/google_plus.png</normaloff>:/new/prefix1/Img/google_plus.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>50</width>
+              <height>50</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="facebook">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"> .QToolButton {
+  border-radius:5px;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="img.qrc">
+              <normaloff>:/new/prefix1/Img/facebook.png</normaloff>:/new/prefix1/Img/facebook.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>50</width>
+              <height>50</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QToolButton" name="dasturbek">
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"> .QToolButton {
+  border-radius:5px;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="img.qrc">
+              <normaloff>:/new/prefix1/Img/twitter.png</normaloff>:/new/prefix1/Img/twitter.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>50</width>
+              <height>50</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="9" column="0" colspan="2">
+        <widget class="QPushButton" name="about">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">.QPushButton {
+  border-radius: 4px;
+  background-color: #ff1a1a;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px;
+  margin: 5px;
+}
+.QPushButton:hover{
+  border-radius: 5px;
+  background-color: #e6005c;
+  margin: 3px;
+  color:#FFF;
+}</string>
+         </property>
+         <property name="text">
+          <string>About</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="styleSheet">
+       <string notr="true">.QWidget{
+border-radius:10px ;
+background-color: rgba(0,0,0,0.3);
+}</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="1" column="0">
+        <widget class="QFrame" name="frame">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="horizontalSpacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QStackedWidget" name="stackedWidget">
+            <property name="currentIndex">
+             <number>3</number>
+            </property>
+            <widget class="QWidget" name="webview0">
+             <layout class="QGridLayout" name="_2">
+              <item row="0" column="0">
+               <widget class="QWebView" name="webView">
+                <property name="url">
+                 <url>
+                  <string>about:blank</string>
+                 </url>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="uquvchilarni_malumoti1">
+             <layout class="QGridLayout" name="gridLayout_6">
+              <item row="2" column="0" colspan="3">
+               <widget class="QGroupBox" name="groupBox_2">
+                <property name="title">
+                 <string>Malumot qo'shish</string>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_5">
+                 <item row="2" column="0">
+                  <widget class="QLabel" name="label_8">
+                   <property name="text">
+                    <string>Tug'ilgan sanasi</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="3">
+                  <widget class="QLineEdit" name="passport"/>
+                 </item>
+                 <item row="2" column="1">
+                  <widget class="QLineEdit" name="sana"/>
+                 </item>
+                 <item row="2" column="2">
+                  <widget class="QLabel" name="label_10">
+                   <property name="text">
+                    <string>Ota-onasi haqida ma'lumot</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="3">
+                  <widget class="QPushButton" name="pushButton">
+                   <property name="text">
+                    <string>Qo'shish</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="3">
+                  <widget class="QLineEdit" name="ota_ona"/>
+                 </item>
+                 <item row="1" column="0">
+                  <widget class="QLabel" name="label_9">
+                   <property name="text">
+                    <string>Familyasi</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="3">
+                  <widget class="QLineEdit" name="adress"/>
+                 </item>
+                 <item row="1" column="2">
+                  <widget class="QLabel" name="label_7">
+                   <property name="text">
+                    <string>Pasport seriyasi va raqami</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="1">
+                  <widget class="QLineEdit" name="fam"/>
+                 </item>
+                 <item row="0" column="0">
+                  <widget class="QLabel" name="label_6">
+                   <property name="text">
+                    <string>Ismi</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QLineEdit" name="ism"/>
+                 </item>
+                 <item row="0" column="2">
+                  <widget class="QLabel" name="label">
+                   <property name="text">
+                    <string>Manzili</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="1" colspan="2">
+                  <spacer name="horizontalSpacer_2">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="0" column="0" colspan="4">
+               <widget class="QTableView" name="tableView"/>
+              </item>
+              <item row="3" column="0" colspan="3">
+               <widget class="QGroupBox" name="groupBox_3">
+                <property name="title">
+                 <string>Tahrirlash</string>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_7">
+                 <item row="2" column="0">
+                  <widget class="QLabel" name="label_16">
+                   <property name="text">
+                    <string>Manzili</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="2">
+                  <widget class="QLabel" name="label_15">
+                   <property name="text">
+                    <string>Ota-onasi haqida ma'lumot</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="3">
+                  <widget class="QPushButton" name="pushButton_4">
+                   <property name="text">
+                    <string>Tayyor</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="1">
+                  <widget class="QLineEdit" name="Tadress"/>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QLineEdit" name="Tpassport"/>
+                 </item>
+                 <item row="3" column="0">
+                  <widget class="QPushButton" name="pushButton_5">
+                   <property name="text">
+                    <string>Tanlash</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="0">
+                  <widget class="QLabel" name="label_14">
+                   <property name="text">
+                    <string>Pasport seriyasi va raqami</string>
+                   </property>
+                   <property name="alignment">
+                    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="3" column="1" colspan="2">
+                  <spacer name="horizontalSpacer_3">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeType">
+                    <enum>QSizePolicy::Ignored</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>40</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item row="0" column="3">
+                  <widget class="QLineEdit" name="Tota_ona"/>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QPushButton" name="pushButton_3">
+                <property name="text">
+                 <string>O'chirish</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_11">
+                <property name="text">
+                 <string>O'chirish uchun katagini tanlang va o'chirish tugmasini bosing</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <spacer name="horizontalSpacer_4">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="reyting_baho">
+             <layout class="QGridLayout" name="gridLayout_9">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_13">
+                <property name="text">
+                 <string>Baholar va reyting</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QTableWidget" name="tableWidget_2"/>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="dars_jadvali">
+             <layout class="QGridLayout" name="gridLayout_8">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_12">
+                <property name="text">
+                 <string>Dars jadvali</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QTableWidget" name="tableWidget"/>
+              </item>
+              <item row="1" column="0">
+               <widget class="QComboBox" name="comboBox"/>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QToolButton" name="user_setting">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"> .QToolButton {
+  border-radius:5px;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="img.qrc">
+             <normaloff>:/new/prefix1/Img/user_log.png</normaloff>:/new/prefix1/Img/user_log.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>55</width>
+             <height>55</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="User_name">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="cursor">
+            <cursorShape>ArrowCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 12pt &quot;Myanmar Text&quot;;
+color:rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Karimova Shoira</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Minimum</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"> .QPushButton {
+border-radius:5px;
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="img.qrc">
+             <normaloff>:/new/prefix1/Img/icons8-read-message-64.png</normaloff>:/new/prefix1/Img/icons8-read-message-64.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>55</width>
+             <height>55</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKitWidgets/QWebView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

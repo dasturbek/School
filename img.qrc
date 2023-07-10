@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Img/user_log.png</file>
+        <file>Img/background.png</file>
+        <file>Img/icons8-school.png</file>
+        <file>Img/icons8-read-message-64.png</file>
+        <file>Img/dasturbek.png</file>
+        <file>Img/facebook.png</file>
+        <file>Img/google_plus.png</file>
+        <file>Img/ig.png</file>
+        <file>Img/twitter.png</file>
+    </qresource>
+</RCC>

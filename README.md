@@ -26,9 +26,6 @@
 ## Install
 
 You can install QT framework and c++ language by entering this command
-```
-pip install tkinter
-```
 
 ## Usage 💡
 1. Download this repository.
